@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">UI</div>
+      <div class="menu">
+        <div class="menu-item active">🏠</div>
+        <div class="menu-item">🌦️</div>
+        <div class="menu-item">📊</div>
+        <div class="menu-item">⚙️</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top-bar">
+        <h2>Good Morning, Pawan!</h2>
+        <p>Thursday,22 May, 2025</p>
+      </header>
+
+      <section class="weather-today">
+        <div class="weather-box">
+          <div class="weather-temp">37°C</div>
+          <div class="weather-condition">Normal</div>
+          <div class="weather-location">Greater Noida,India</div>
+        </div>
+
+        <div class="highlight">
+          <div class="highlight-box">
+            <div><strong>Sunrise:</strong> 6:41 AM</div>
+            <div><strong>Sunset:</strong> 5:35 AM</div>
+            <div><strong>Wind:</strong> 7.9 km/h</div>
+            <div><strong>UV:</strong> Moderate (4)</div>
+            <div><strong>Humidity:</strong> 85%</div>
+            <div><strong>Visibility:</strong> 5.6 km</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="forecast">
+        <div class="forecast-box">
+          <h3>10 Days Forecast</h3>
+          <div class="days">
+            <div class="day">Today<br/>🌧️<br/>25°C</div>
+            <div class="day">Mon<br/>⛅<br/>28°C</div>
+            <div class="day">Tue<br/>🌧️<br/>24°C</div>
+            <div class="day">Wed<br/>⛈️<br/>23°C</div>
+            <div class="day">Thu<br/>☀️<br/>32°C</div>
+          </div>
+        </div>
+
+        <div class="rainfall-box">
+          <h3>Monthly Rainfall</h3>
+          <div class="chart">
+            <div class="pie sun">70%</div>
+            <div class="pie rain">30%</div>
+          </div>
+        </div>
+
+        <div class="other-countries">
+          <h3>Others Countries</h3>
+          <div class="country">
+            <div>Australia - Canberra<br/>☀️ 26°C</div>
+          </div>
+          <div class="country">
+            <div>Japan - Tokyo<br/>🌧️ 30°C</div>
+          </div>
+          <div class="country">
+            <div>Russia - Moscow<br/>❄️ -4°C</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
